@@ -1,0 +1,77 @@
+numbers = [1,2,3,4,5]
+
+# for num in numbers:
+#     print(num)
+
+names = ['cinar','canan','beyza','sena','suna','zahide']
+
+# for name in names:
+#     print(f'my name is {name}' )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
