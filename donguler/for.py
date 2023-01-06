@@ -54,7 +54,13 @@ sayilar = [1,3,5,7,9,12,19,21]
 
 
 
+#soru 4 Sehirlerden hangisi en fazla 5 karakterlidir
 
+sehirler = ['kocaeli','istanbul','ankara','izmir','rize']
+
+# for sehir in sehirler:
+#     if len(sehir) <= 5:
+#         print(sehir)
 
 
 
