@@ -48,6 +48,3 @@ paraCek(gamzeHesap,2000)
 
 
 
-
-
-
