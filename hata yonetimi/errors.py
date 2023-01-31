@@ -10,13 +10,25 @@
 
 
 # error handling => hata yonetimi
-try:
-    x = int(input('x: '))
-    y = int(input('y: '))
-    print(x/y)
+# try:
+#     x = int(input('x: '))
+#     y = int(input('y: '))
+#     print(x/y)
 
-except ZeroDivisionError:
-    print('y icin 0 girilemez' )
+# except (ZeroDivisionError,ValueError):
+#     print('yanlis birgi girdiniz' )
+    
+   
+while True: 
+    try:
+        x = int(input('x: '))
+        y = int(input('y: '))
+        print(x/y)
+
+    except Exception as ex:
+        print('yanlis birgi girdiniz', ex )
+    else:
+        break;
 
 
 
