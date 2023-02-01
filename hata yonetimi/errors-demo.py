@@ -88,6 +88,3 @@ deger = input()
 
 
 
-
-
-
