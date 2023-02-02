@@ -1,0 +1,82 @@
+# Dosya acmak ve olusturmak icin open() fonksiyonu kullanilir
+#Kullanimi: open(dosya_adi, dosya_erisme_modu)
+#dosya_erisme_modu => dosyayi hangi amacla actigimizi belirtir
+
+# "w": (Write) yazma modu. Dosyayi konumda olusturur.
+
+
+
+
+
+# "a": (Append) ekleme. Dosya konumda yoksa olusturur.
+
+
+
+
+
+# "x": (Create) olusturma. Dosya zaten varsa hata verir
+
+
+
+
+# "r" (Read) okuma. varsayilan. dosya konumda yoksa hata verir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
