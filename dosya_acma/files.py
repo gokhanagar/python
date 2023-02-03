@@ -14,7 +14,10 @@
 
 
 
+
+
 # "x": (Create) olusturma. Dosya zaten varsa hata verir
+
 
 
 
