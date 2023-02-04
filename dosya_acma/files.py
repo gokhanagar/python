@@ -22,6 +22,8 @@
 
 
 
+
+
 # "r" (Read) okuma. varsayilan. dosya konumda yoksa hata verir.
 
 
