@@ -161,13 +161,110 @@ sifreleyici=str.maketrans("aiouhe","&5+^?=")
 # str.maketrans() metodu ile ilk parametredeki değerler yerine ikinci parametredeki değerler yazılır
 
 
-password="hello world"
-kriptolupassword=password.translate(sifreleyici)
-print(kriptolupassword)
+# password="hello world"
+# kriptolupassword=password.translate(sifreleyici)
+# print(kriptolupassword)
 
-sifrecozucu=str.maketrans("&5+^?=","aiouhe")
-cozulenpassword=kriptolupassword.translate(sifrecozucu)
-print(cozulenpassword)
+# sifrecozucu=str.maketrans("&5+^?=","aiouhe")
+# cozulenpassword=kriptolupassword.translate(sifrecozucu)
+# print(cozulenpassword)
+
+
+# STRING.format(variable)
+
+# standart bir metin içerisinde belirli yer yada yerleri değiştimek istediğimizde, başka bir yerde tanımlanmış bir 
+# değeri string değişken içerisinde kullanmak istediğimizde format metodu kullanılır 
+# {} yer tutucu görevi yaparlar
+
+
+age=36
+
+txt="My name is John and I am {}"      # yer tutucu ile string içerisinde format metodu ile nereye ekleme yapacağımız belirlenir
+txt.format(age)                   # format metodu içeirisine yazacağımız parametre string içerisindeki yer tutucu yerine yazılır
+
+
+
+# STRING.center()
+
+# string ifadeyi içine yazılan parametre uzunluğunde bir alana ortalayarak yerleştirir. sağa ve sola ise defaoult değer boşluk
+# yerleştirir. boşluk yerine atama yapılırsa farklı bir karakterde doldurulur
+
+
+txt=" Global"
+
+#print(txt.center(20))
+
+
+# STRING.count(value,start,end)
+
+# bir string içerisinde saymak istediğimiz ifade sayılır. kaç tane olduğunu gösterir. string ifade de baştan sona sayılacağı
+# gibi, başlangıç ve bitiş noktası yazılarak belirli bir aralıkta da saydırılabilir
+
+txt= "Global On Time Analytics"
+
+txt.count("On")
+
+
+
+# STRING.startswith(value, start, end) / STRING.endswith(value, start, end)
+
+# string bir değişkenin yazılan value değeri ile başlayıp başlamadığını sorgular. True/False döner    (STRING.startswith())
+# string bir değişkenin yazılan value değeri ile bitip bitmediğini sorgular. True/False döner         (STRING.endswith())
+
+
+# STRING.find() / STRING.index()
+
+# string bir ifade içerisinde aranan değer ilk olarak hangi index değerde onu döndürür
+# belirli bir aralıktada sorgulanabilir. başlangıç ve bitiş index değerleri yazılarak aralık belirtilir
+# aranan ifade yoksa find() -1 döndürür ve kod çalışır
+# aranan ifade yoksa index() hata verir ve kod çalışmaz
+
+
+# txt="Global"
+# print(txt.find(("o")))
+# print(txt.find("ba")) # coklu karakter sorgulamada ilk karakterin index i döndürülür
+# print(txt.find("x"))
+
+
+
+
+# STRING.islower()    : hepsi küçük harfmi sorgular True/False döndürür
+# STRING.isalpha()    : hepsi harfmi sorgular True/False döndürür
+# STRING.isdigit()    : hepsi rakammı sorgular True/False döndürür
+
+print("Hello World".islower())
+print("Hello World".isalpha())
+print("1234567HW".isdigit())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
